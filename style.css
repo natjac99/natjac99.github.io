@@ -8,6 +8,7 @@ body
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(galaxy.jpg);
     background-size: cover;
     background-position: center;
+    overflow: auto;
 }
 #planet
 {
@@ -15,6 +16,17 @@ body
     margin: 10% auto;
     display: block;
 
+}
+#logo
+{
+    /* width: 600px; */
+    margin: 10% auto;
+    display: block;
+
+}
+#anim
+{
+    margin: auto;
 }
 .circle
 {
@@ -73,4 +85,16 @@ body
     {
         transform: rotate(360deg);
     }
+}
+.wrapper
+{
+    /* width: 400px; */
+    margin: 10% auto;
+    /* display: block; */
+    align-items: center;
+}
+.smallWrapper
+{
+    display: flex;
+    align-items: center;
 }
