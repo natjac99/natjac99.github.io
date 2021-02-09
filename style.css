@@ -10,6 +10,7 @@ body
     background-size: cover;
     background-position: center;
     overflow: auto;
+    z-index: 1;
 }
 #planet
 {
@@ -98,6 +99,43 @@ body
 {
     display: flex;
     align-items: center;
+}
+
+/*Images and narrative */
+img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+.intro {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 30px;
+    padding: 2px 50px;
+    color: #e0dfdc;
+    background-color: inherit;
+    letter-spacing: .1em;
+}
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 30px;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    background-color: inherit;
+    width: 50%;
+    z-index: 5;
+    font-size: 20px;
+}
+.horizontalText {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 30px;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    background-color: inherit;
+    z-index: 5;
+    font-size: 20px;
+    padding:20px 15px;
 }
 
 /* The actual timeline (the vertical ruler) */
